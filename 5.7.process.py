@@ -56,7 +56,7 @@ def process(filters=None, limit=2, offset=2):
 
 def main():
 
-    fi = process(filters=None, limit=2, offset=2)
+    fi = process(None, 2, 2)
     print(fi)
 
 
